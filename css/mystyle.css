@@ -1,0 +1,73 @@
+.box-title {
+    color: red;
+    border: 1px solid black;
+    text-align: center;
+    background-color: yellow;
+}
+.box-content{
+    color:indigo;
+    height: 120px;
+    padding: 6px;
+    background-color: orange;
+}
+.box{
+    width: 180px;
+    border: 1px solid black;
+    float: left;
+    margin: 5px;
+}
+.myImg{
+    float: left;
+    margin: 10px;
+    opacity: 0.4;
+}
+.myImg:hover{
+    opacity: 1;
+    border: 3px solid red;
+}
+
+#anubhav li{
+    float:left;
+    padding: 10px;
+    border: 1px solid black;
+    list-style: none;
+    background-color: cadetblue;
+
+} 
+#anubhav li:hover{
+    background-color: brown;
+}
+#anubhav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aqua;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+td, th{
+    border:1px solid black;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    background-color: brown;
+    color: white;
+
+}
+tr:nth-child(even){
+    background-color: coral;
+}
+tr:nth-child(odd){
+    background-color: dodgerblue;
+
+}
+input:focus{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20;
+    font-family: cursive;
+}
